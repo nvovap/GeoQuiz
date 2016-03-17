@@ -3,6 +3,7 @@
     <string name="true_button">true</string>
     <string name="false_button">false</string>
     <string name="next_question_button">next</string>
+    <string name="prev_question_button">prev</string>
     <string name="correct_toast">correct</string>
     <string name="incorrect_toast">incorrect toast</string>
 

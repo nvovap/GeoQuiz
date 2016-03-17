@@ -12,13 +12,7 @@
         android:layout_height="wrap_content"
         android:padding="24dp"/>
 
-    <Button
-        android:id = "@+id/next_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text = "@string/next_question_button"
-        android:drawableRight="@drawable/arrow_right"
-        android:drawablePadding="4dp"/>
+
 
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
@@ -39,4 +33,28 @@
                 android:layout_height="wrap_content"
                 android:text="@string/false_button"/>
         </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation = "horizontal">
+
+
+        <ImageButton
+            android:id = "@+id/prev_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/prev_question_button"
+            android:src  = "@drawable/arrow_left" />
+
+        <ImageButton
+            android:id = "@+id/next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/next_question_button"
+            android:src="@drawable/arrow_right"/>
+
+
+    </LinearLayout>
 </LinearLayout>
